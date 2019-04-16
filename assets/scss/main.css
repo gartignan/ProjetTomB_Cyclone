@@ -1,0 +1,483 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/CormorantGaramond/CormorantGaramond-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Proza Libre";
+  src: url("../fonts/ProzaLibre/ProzaLibre-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  background-color: #f8f4f3;
+}
+
+* body #head {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+}
+
+.navbar-expand-md {
+  padding: 0 !important;
+}
+
+.title > p {
+  font-family: "Proza Libre";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.date > p {
+  font-family: "Proza Libre";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#centrehead {
+  text-align: center;
+  height: 87vh;
+}
+
+#centrehead > h1 {
+  font-family: "Cormorant Garamond";
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#article2 > p {
+  font-family: "Proza Libre";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+#article3 > p {
+  font-family: "Proza Libre";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+#article2 > button {
+  border: none;
+  background: none;
+  font-family: "Proza Libre";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  outline: none;
+}
+
+#article3 > button {
+  border: none;
+  background: none;
+  font-family: "Proza Libre";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  outline: none;
+}
+
+#imgarticle1 {
+  background-image: url("../img/article2.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#imgarticle2 {
+  background-image: url("../img/article2.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#article2 {
+  margin-top: 5rem;
+  padding-right: 4rem;
+}
+
+#article3 {
+  margin-top: 5rem;
+  padding-left: 4rem;
+}
+
+#bcomment2 {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/Coment.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+#bshare2 {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/Share.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.cormo {
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#article2 > h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 2rem;
+}
+
+#article3 > h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 2rem;
+}
+
+#nopad {
+  padding: 0 !important;
+  background-color: #f2eae6;
+}
+
+#colleft > p {
+  font-family: "Proza Libre";
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 13.5rem;
+}
+
+#colleft > h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: right;
+  margin-right: 3.9rem;
+}
+
+#colleft > button {
+  border: none;
+  background: none;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 13.5rem;
+  color: #333230;
+  font-family: "Proza Libre";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  outline: none;
+}
+
+#colright {
+  padding: 0 !important;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+#coltopleft > p {
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  padding-left: 13.5rem;
+}
+
+#iconsFas {
+  padding-right: 4rem;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#yel {
+  color: #fffc8f;
+  -webkit-text-decoration: underline #fffc8f;
+          text-decoration: underline #fffc8f;
+}
+
+#player {
+  padding: 0 !important;
+}
+
+#txt-played {
+  margin-left: 2rem;
+}
+
+#txt-played > p {
+  margin: 0;
+}
+
+#title-play {
+  color: #2a2928;
+  font-family: "Proza Libre";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+#date-play {
+  color: #918e8b;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#numb-play {
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#played {
+  width: 100px;
+  height: 100px;
+  margin-left: 2rem;
+  background-image: url("../img/player3.png");
+}
+
+#played > button {
+  width: 22px;
+  height: 25px;
+  background: none;
+  border: none;
+  padding: 1.2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  outline: none;
+  background-image: url("../img/Play.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#timeplay {
+  margin-left: 2rem;
+  padding-top: 3rem;
+  color: #918e8b;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#playlist {
+  margin-left: 5rem;
+}
+
+#arrowbot {
+  margin-top: 1rem;
+}
+
+#topicstitle > h2 {
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+}
+
+.titleands > h3 {
+  margin-bottom: 1.5rem;
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.titleands > p {
+  margin-bottom: 2rem;
+  color: #2a2928;
+  font-family: "Proza Libre";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.themeandpC > p {
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#list > li {
+  list-style-type: none;
+  margin-right: 2rem;
+  font-family: "Proza Libre";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#list > li > a {
+  text-decoration: none;
+  color: #918e8b;
+}
+
+#imgload {
+  margin-bottom: 1rem;
+}
+
+#titlemost > h2 {
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+#cercle1:hover {
+  background-color: #f2eae6;
+}
+
+#cercle2:hover {
+  background-color: #f2eae6;
+}
+
+#cercle3:hover {
+  background-color: #f2eae6;
+}
+
+#cercle4:hover {
+  background-color: #f2eae6;
+}
+
+.cercles {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.cercles > h3 {
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 34.08px;
+  margin-bottom: 2rem;
+}
+
+.themep {
+  color: #2a2928;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 2.5rem;
+}
+
+.auteur {
+  color: #918e8b;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+#sub > h2 {
+  color: #26292c;
+  font-family: "Cormorant Garamond";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+#email {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 20px;
+  outline: none;
+  width: 400px;
+  opacity: 0.7;
+  color: #918e8b;
+  font-family: "Proza Libre";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+#submitsub {
+  border: none;
+  background-color: #f2eae6;
+  padding: 0.5rem;
+  border-radius: 20px;
+  color: #2a2928;
+  font-family: "Proza Libre";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 115px;
+}
+
+#form {
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 20px;
+}
+
+#subscrate {
+  margin-bottom: 5rem;
+}
+
+#footer {
+  background-color: #f2eae6;
+}
+
+.navbar-brand {
+  color: #26272d;
+  font-family: "Proza Libre";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15.14px;
+  text-transform: uppercase;
+  margin-right: 5rem;
+}
+
+#footerfo {
+  margin-bottom: 5rem;
+}
+
+#droits > p {
+  opacity: 0.66;
+  color: #918e8b;
+  font-family: "Proza Libre";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 330px;
+}
+
+#srow {
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
