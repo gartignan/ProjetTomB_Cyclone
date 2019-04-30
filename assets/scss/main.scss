@@ -49,6 +49,15 @@
     font-weight: 700;
 }
 
+.yeltitre {
+    color: #fffc8f;
+    text-decoration: underline;
+}
+
+#undertitre {
+    text-decoration: underline;
+}
+
 #article2 > p {
     font-family: "Proza Libre";
     font-size: 16px;
@@ -113,7 +122,7 @@ padding-right: 4rem;
 padding-left: 4rem;
 }
 
-#bcomment2 {
+.bcomment2 {
 width: 32px;
 height: 32px;
 background-image: url("../img/Coment.png");
@@ -124,7 +133,7 @@ border-radius: 50%;
 margin-right: 0.5rem;
 }
 
-#bshare2 {
+.bshare2 {
 width: 32px;
 height: 32px;
 background-image: url("../img/Share.png");
@@ -369,6 +378,10 @@ background-color: #f2eae6;
 
 #cercle3:hover {
 background-color: #f2eae6;
+    #jaune {
+        color: #fffc8f;
+        text-decoration: underline;
+    }
 }
 
 #cercle4:hover {
@@ -430,6 +443,7 @@ line-height: 26px;
 
 #submitsub {
     border: none;
+    outline: none;
     background-color: #f2eae6;
         padding: 0.5rem;
     border-radius: 20px;
@@ -480,4 +494,96 @@ margin-left: 330px;
 
 #srow {
     margin-bottom: 3rem;
+}
+
+#yellow {
+color: #fffc8f;
+}
+
+#soustitre {
+    margin: 0;
+    color: #fff;
+font-family: "Cormorant Garamond";
+font-size: 30px;
+font-weight: 400;
+}
+
+#soustitre2 {
+    color: #ffffff;
+font-family: "Proza Libre";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .imgres {
+        max-width: 100%;
+    }
+    #colleft > h2 {
+        font-size: 65px;
+        text-align: left;
+    }
+    #colleft > p {
+        padding: 0;
+    }
+    #centrehead > h1 {
+        font-size: 70px;
+    }
+    #soustitre {
+        font-size: 25px;
+    }
+    #droits > p {
+        margin-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    #article3 {
+        margin: 0;
+        padding: 1rem;
+    }
+    #article2 {
+        padding: 1rem;
+    }
+    #colleft > button {
+        margin-left: 0;
+    }
+    #centrehead > h1 {
+        font-size: 55px;
+    }
+    #soustitre {
+        font-size: 20px;
+    }
+    #colleft > h2 {
+        font-size: 55px;
+    }
+    .navbar-brand { 
+        margin-right: 0;
+    }
+    #topicstitle > h2 {
+        font-size: 60px;
+    }
+    #titlemost > h2 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    #email { 
+        width: 300px;
+    }
+
+    #player{
+        display : none !important;
+
+    }
+}
+
+@media only screen and (max-width: 458px) {
+    #email {
+        width: 200px;
+    }
 }
