@@ -52,6 +52,7 @@ function loadTopic(topics, cpt) {
                 {
                     var comment = document.createElement("a");
                     comment.href = "#";
+                    comment.setAttribute("aria-label", "comment");
                     comment.setAttribute("class", "iconstopicsC d-flex");
                     icons.appendChild(comment);
 
@@ -65,6 +66,7 @@ function loadTopic(topics, cpt) {
                 {
                     var share = document.createElement("a");
                     share.href = "#";
+                    share.setAttribute("aria-label", "share");
                     share.setAttribute("class", "iconstopicsC d-flex");
                     icons.appendChild(share);
 

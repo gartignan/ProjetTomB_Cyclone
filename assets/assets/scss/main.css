@@ -377,23 +377,28 @@ html {
 }
 
 #cercle1:hover {
+  transition: background-color 1s ease;
   background-color: #f2eae6;
 }
 
 #cercle2:hover {
+  transition: background-color 1s ease;
   background-color: #f2eae6;
 }
 
 #cercle3:hover {
+  transition: background-color 1s ease;
   background-color: #f2eae6;
 }
 
 #cercle3:hover #jaune {
+  transition: color 1s ease;
   color: #fffc8f;
   text-decoration: underline;
 }
 
 #cercle4:hover {
+  transition: background-color 1s ease;
   background-color: #f2eae6;
 }
 
