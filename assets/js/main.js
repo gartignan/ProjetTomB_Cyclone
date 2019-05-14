@@ -16,6 +16,7 @@ function loadData(url, callback) {
 
 function xd() {
     var param = 'email=' + $('#email').val();
+    event.preventDefault();
     $.ajax({
         type: "POST",
         url: "http://localhost/ajoutMail.php?" + param,
@@ -31,6 +32,7 @@ function xd() {
 
 //Tableau de Topics // Div HTML
 function loadTopic(topics, cpt) {
+    console.log(data);
     console.log(topics);
     document.getElementById("topics").innerHTML += '<div id="topics' + cpt + '" class="row"><div id = "colg' + cpt + '" class="col-lg-4 mt-5" ></div ><div id="colm' + cpt + '" class="col-lg-4 mt-5"></div><div id="cold' + cpt + '" class="col-lg-4 mt-5"></div></div >';
     for (let i = 0; i < topics.length; i++) {
@@ -112,6 +114,7 @@ function loadTopic(topics, cpt) {
                     auteur.innerHTML = topic.auteur;
                     titleands.appendChild(auteur);
                 }
+
             }
         }
 
