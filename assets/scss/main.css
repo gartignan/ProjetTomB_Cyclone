@@ -26,6 +26,10 @@
   background-position-y: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar-expand-md {
   padding: 0 !important;
 }
@@ -200,6 +204,12 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+  outline: none;
+}
+
+#lmt {
+  border: none;
+  background: none;
   outline: none;
 }
 
